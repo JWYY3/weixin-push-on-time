@@ -4,35 +4,27 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wx544b2d50b18cdc23",
+    APP_ID: "wxafa2776aa69feca2",
 
     // 公众号APP_SECRET
-    APP_SECRET: "158d1d53029246aef955602f8355809e",
+    APP_SECRET: "bc4259078608c33fc15f86cbb8ecfb2a",
 
     // 模板消息id
-    TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    TEMPLATE_ID: "DOrC02Mc3MafScY23NO5QlrUsBLBiEdn3uotSaelLGo",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "t10BPcP8opkM7rJ4hxDOYL97Lsx_O_dO9-ao4mdiv20",
+    CALLBACK_TEMPLATE_ID: "DOrC02Mc3MafScY23NO5QlrUsBLBiEdn3uotSaelLGo",
 
 
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
-     * [
-     *   {name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-     *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
-     * ]
-     */
-    USERS: [
-      //{name: '小瑞子', id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-      {name: '小仙女', id: "osV6d56nzj2jlGvk2Q7RS_kmBmPc"}, 
-      //{name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      //{name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
-    ],
+    
+    USERS: ["oORoU6TBxnFKsGqqin2kqsleQMsY"]
+     
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "osV6d51DNA077KUDSmBvtYOUTqa4"}, 
-    ],
+      {name: '乖乖',id: "oORoU6TBxnFKsGqqin2kqsleQMsY"}, 
+   
      
     /**
      * 信息配置
@@ -41,9 +33,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "山东",
+    PROVINCE: "成都",
     // 所在城市
-    CITY: "聊城",
+    CITY: "彭州",
 
     /** 重要节日相关 */
 
@@ -54,11 +46,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "小仙友", "year": "2000", "date": "11-26"},
-      {"type": "生日", "name": "小瑞子", "year": "2001", "date": "10-10"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "01-19"},
-      {"type": "节日", "name": "宝贝考研", "year": "2023", "date": "12-25"},
-    ],
+      {"type": "节日", "name": "和乖乖认识多久", "year": "2022", "date": "03-28"},
+      {"type": "生日", "name": "乖乖生日", "year": "2003", "date": "02-08"},
+      {"type": "节日", "name": "乖乖主动搭讪日", "year": "2022", "date": "05-20"},
+      
 
     /**
      * 限制重要节日的展示条目, 需要填写数字; 

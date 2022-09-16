@@ -37,7 +37,7 @@ export const config = {
     FESTIVALS: [
       {"type": "节日", "name": "和乖乖认识多久", "year": "2022", "date": "03-28"},
       {"type": "生日", "name": "乖乖生日", "year": "2003", "date": "02-08"},
-      {"type": "节日", "name": "乖乖主动搭讪日", "year": "2022", "date": "05-20"},
+      {"type": "节日", "name": "乖乖de主动搭讪日", "year": "2022", "date": "05-20"},
       
 
     /**
